@@ -4,11 +4,51 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
     <title>Page Title</title>
 </head>
 <body>
-    <h2>Sobre Nós</h2>
-    <img src="assets/img/empresa.jpg" class="img-responsive" alt="Imagem Responsiva"> <!--bootstrap css-->
+    <div class="container">
+        <h2>Sobre Nós</h2>
+        <img src="assets/img/empresa.jpg" class="img-responsive" alt="Imagem Responsiva"> <!--bootstrap css-->
+
+        <div class="panel-group" id="paineis-sobre">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#paineis-sobre">Desde 1935</h3>
+                </div>
+                <div id="primeiro-paragrafo" class="collapse in"> 
+                    <div class="panel-body">
+                        <p>trazendo casas, mansões e prédios lindos para o mundo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#paineis-sobre">Preços acessíveis</h3>
+                </div>
+                <div id="segundo-paragrafo" class="collapse in">
+                    <div class="panel-body">
+                        <p>Preços a partir de R$ 1000,00.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#paineis-sobre">Alegria em colaborar para um mundo mais bonito</h3>
+                </div>
+                <div id="terceiro-paragrafo" class="collapse in">
+                    <div class="panel-body">
+                        <p>Trazendo alegria para a vida das pessoas que tem dinheiro para gastar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="assets/js/jquery.js"></script> <!--Primeiro carrega o Jquery-->
+    <script src="bootstrap/js/bootstrap.min.js"></script> <!--Depois carrega o Bootstrap-->
 
 </body>
 </html>
