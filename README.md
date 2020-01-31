@@ -1,4 +1,4 @@
-Curso de JavaScript
+Curso de Bootstrap
 ===============================================
 
 - Introdução
@@ -12,4 +12,4 @@ Curso de JavaScript
 - Deixando o site responsivo em telas maiores
 
 --------------------
- ![](https://github.com/jacksonn455/javascript/blob/master/img/image.png)
+ ![](https://github.com/jacksonn455/Bootstrap/blob/master/assets/img/img.png)
