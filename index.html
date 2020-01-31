@@ -9,7 +9,41 @@
     <title>TopCasaFina Arquitetura</title>
 </head>
 <body>
-    <section class="container">
+    <header>
+            <nav class="navbar navbar-default">
+                <div class="container">
+    
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+    
+                        <a class="navbar-brand" href="#">TopCasaFina Arquitetura</a>
+                    </div>
+    
+                    <div class="collapse navbar-collapse" id="collapse-navbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#sobre-nos">Sobre Nós</a></li>
+                            <li><a href="#nossos-projetos">Nossos Projetos</a></li>
+                            <li><a href="#depoimentos">Depoimentos</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        <div class="topcasafina-banner">
+            <h1>TopCasaFina Arquitetura</h1>
+            <p>Projetando a casa dos sonhos desde 2000.</p>
+            <button type="submit" class="btn btn-primary btn-lg">Contate-nos agora</button>
+        </div>
+
+    </header>
+
+    <section id="sobre-nos" class="container">
         <h2>Sobre Nós</h2>
         <img src="assets/img/empresa.jpg" class="img-responsive" alt="Imagem do escritório"> <!--bootstrap css-->
 
@@ -55,7 +89,7 @@
         </div>
     </div>
 
-    <section class="container">
+    <section id="nossos-projetos" class="container">
         <h2>Nossos Projetos</h2>
         <figure class="thumbnail"> <!--caixa-->
             <img src="assets/img/projetos/casa-castelo.png" class="img-responsive" alt="Foto da casa castelo">
@@ -146,14 +180,14 @@
             </div>
         </section>
 
-        <section class="container">
+        <section id="video-institucional" class="container">
             <h2>Vídeo Institucional</h2>
             <section class="embed-responsive embed-responsive-16by9">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/i_3Pv1AygeI" frameborder="0" allowfullscreen></iframe></iframe></iframe>
             </div>
         </section>
 
-        <section>
+        <section id="contato">
             <h2>Contato</h2>
             <p>Entre em contato conosco</p>
 
@@ -211,6 +245,7 @@
 
     <script src="assets/js/jquery.js"></script> <!--Primeiro carrega o Jquery-->
     <script src="bootstrap/js/bootstrap.min.js"></script> <!--Depois carrega o Bootstrap-->
+    <script src="assets/js/navbar-animation-fix.js"></script>
 
 </body>
 </html>
