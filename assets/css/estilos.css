@@ -10,3 +10,24 @@
     color: white;
     font-size: 25px;
 }
+
+.contato-select, .grupo-radio{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.grupo-radio .radio:first-child{
+    margin-top: 0;
+}
+
+footer{
+    background: #333333;
+    color: #FFF;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer address:last-child{
+    margin-bottom: 0;
+}
