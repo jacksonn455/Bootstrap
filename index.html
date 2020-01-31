@@ -3,12 +3,13 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/estilos.css">
-    <title>Page Title</title>
+    <title>TopCasaFina Arquitetura</title>
 </head>
 <body>
-    <div class="container">
+    <section class="container">
         <h2>Sobre Nós</h2>
         <img src="assets/img/empresa.jpg" class="img-responsive" alt="Imagem do escritório"> <!--bootstrap css-->
 
@@ -45,9 +46,16 @@
                     </div>
                 </div>
             </div>
-        </div>
+    </section>
 
-    <div class="container">
+    <div class="jumbotron">
+        <div class="container">
+            <h2>Mais de 300 prêmios em disign e em conforto</h2>
+            <h3>Mais de 5 milhões de clientes satisfeitos no mundo</h3>
+        </div>
+    </div>
+
+    <section class="container">
         <h2>Nossos Projetos</h2>
         <figure class="thumbnail"> <!--caixa-->
             <img src="assets/img/projetos/casa-castelo.png" class="img-responsive" alt="Foto da casa castelo">
@@ -88,7 +96,55 @@
                 <p>A residência Ludi foi projetada para ser a mais bela casa de São Paulo pela revista Housing.</p>
             </figcaption>
         </figure>
-    </div>
+    </section>
+
+    <section id="depoimentos">
+
+            <h2 class="container titulo-depoimentos">Depoimentos de Clientes</h2>
+    
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+    
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <figure class="item active">
+                        <img src="assets/img/depoimentos/depoimento1.png" alt="Depoimento 1">
+                        <figcaption class="carousel-caption">
+                            <h3>Yuri Padilha</h3>
+                            <p>Gostei muito e achei rápido o serviço.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="item">
+                        <img src="assets/img/depoimentos/depoimento2.png" alt="Depoimento 2">
+                        <figcaption class="carousel-caption">
+                            <h3>Fernando Stafaneni</h3>
+                            <p>Excelente trabalho.</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="item">
+                        <img src="assets/img/depoimentos/depoimento3.png" alt="Depoimento 3">
+                        <figcaption class="carousel-caption">
+                            <h3>Caio Sauzas</h3>
+                            <p>Gostei, competência em primeiro lugar.</p>
+                        </figcaption>
+                    </figure>
+                </div>
+    
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
 
     <script src="assets/js/jquery.js"></script> <!--Primeiro carrega o Jquery-->
     <script src="bootstrap/js/bootstrap.min.js"></script> <!--Depois carrega o Bootstrap-->
