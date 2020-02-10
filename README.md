@@ -1,4 +1,4 @@
-Bootstrap Single Page
+Bootstrap: Single Page
 ===============================================
 
 - Introdução
