@@ -1,4 +1,4 @@
-Curso de Bootstrap
+Bootstrap Single Page
 ===============================================
 
 - Introdução
