@@ -1,5 +1,6 @@
 Bootstrap: Single Page
 ===============================================
+Single page = páginas que não recarregam durante seu uso com experiência semelhante a um aplicativo
 
 - Introdução
 - Começando a implementar o site seguindo o layout
